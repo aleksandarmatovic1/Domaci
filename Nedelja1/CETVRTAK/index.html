@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<!--Ovde pocinje header-->
+    
+            <style>
+            header {
+                background-color: rgb(245, 193, 81) 
+            }
+        </style>
+                        <header style="padding-top:5px">
+                          <h1 style="text-align: center;">VEŽBA 1</h1>
+                          <h2 style="text-align: center;">HELLO 1</h2>
+                            
+                         <style> ul {
+                            list-style-type: none;
+                            margin: 0;
+                            padding: 0;
+                            overflow: hidden;
+                            border: 1px solid #e7e7e7;
+                            background-color: #f3f3f3;
+                          }
+                          
+                          li {
+                            float: left;
+                          }
+                          
+                          li a {
+                            display: block;
+                            color: #667;
+                            text-align: center;
+                            padding: 5px 16px;
+                            text-decoration: none;
+                          }
+                          
+                          li a:hover:not(.active) {
+                            background-color: #ddd;
+                          }
+                          
+                          li a.active {
+                            color: rgb(0, 0, 0);
+                            background-color: rgb(245, 193, 81);
+                          }
+                          </style>
+                          </head>
+                          <body>
+                          
+                          <ul>
+                            <li><a class="active" href="#Početna">Početna</a></li>
+                            <li><a href="#Registracija">Registracija</a></li>
+                            <li><a href="#Tabela">Tabela</a></li>
+                            <li><a href="#Prijava">Prijava</a></li>
+                          </ul>
+
+                        </header>
+                      
+<!--Ovde zavrsava header-->
+
+</head>
+<div>
+<body style="background-color: rgb(211, 211, 211);">
+          <h1>Registracija</h1>
+          <hr>
+      <div>
+            <label for="Ime"><b>Ime</b></label>
+            <input type="text" placeholder="Enter Ime" name="Ime" required>
+
+            <label for="Prezime"><b>Prezime</b></label>
+            <input type="text" placeholder="Enter Prezime" name="Prezime" required>
+      </div>
+      <div>
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+      <div>
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+          <div></div>
+        </div>
+          <button type="submit" class="registerbtn">Registracija</button>
+        </div>
+</hr>
+</div>
+     <!--ovde zavrsava registraciona forma-->  
+       
+
+<!--ovde pocinje tabela-->
+<div style="text-align: center">                 
+    <th style="text-align: center;">
+    <b>TIP AUTOMOBILA</b>
+    </th>
+    </div>
+<div style="padding-top: 5px;">
+      <table align="center";>
+
+          <style>
+              table, th, td {
+                border: 1px solid black;
+              }
+              </style>
+        <tr>
+          <th width="1px">broj</th>
+          <th width="100px">Tip</th>
+          <th width="200px">Marka</th>
+          <th width="100px">Model</th>
+          <th width="80px">Kubikažа</th>
+          <th width="80px">Cena</th>
+        </tr>
+        <tr>
+          <td align="center">1</td>
+          <td>tip 1</td>
+          <td>marka 1</td>
+          <td>model 1</td>
+          <td>kubikaža 1</td>
+          <td>10  000€</td>
+        </tr>
+        <tr>
+                <td align="center">2</td>
+                <td>tip 2</td>
+                <td>marka 2</td>
+                <td>model 2</td>
+                <td>kubikaža 2</td>
+                <td>150 000€</td>
+        </tr>
+        <tr>
+                <td align="center">3</td>
+                <td>tip 3</td>
+                <td>marka 3</td>
+                <td>model 3</td>
+                <td>kubikaža 3</td>
+                <td>80 000€</td>
+        </tr>
+        <tr>
+                <td align="center">4</td>
+                <td>tip 4</td>
+                <td>marka 4</td>
+                <td>model 4</td>
+                <td>kubikaža 4</td>
+                <td>45 000€</td>
+        </tr>
+        <tr>
+                <td align="center">5</td>
+                <td>tip 5</td>
+                <td>marka 5</td>
+                <td>model 5</td>
+                <td>kubikaža 5</td>
+                <td>33 000€</td>
+        </tr>
+        <tr>
+                <td align="center">6</td>
+                <td>tip 6</td>
+                <td>marka 6</td>
+                <td>model 6</td>
+                <td>kubikaža 6</td>
+                <td>72 000€</td>
+        </tr>
+    
+      </table>
+      </div>
+     
+      <!--ovde zavrsava tabela-->
+
+
+      <!--ovde pocinje login forma-->
+
+      <p style="line-height: 100px; border: 150px; padding-top: 20px;">
+<style>
+    div {
+padding-top: 20px ;
+    }
+    </style>
+<p>
+         
+    <p style="text-align: center;">
+    <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+          </p>
+          <p style="text-align: center;">
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+          </p>
+          <p style="text-align: center;">
+                <button type="submit">Login</button>
+          </p>
+        </p>
+
+      <!--ovde zavrsava login forma-->
+     
+
+
+    </body>
+          <!--ovde pocinje footer-->
+<style>
+        .footer {
+          position: fixed;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          background-color: rgb(255, 232, 104);
+          color: rgb(0, 0, 0);
+          text-align: center;
+        }
+        </style>
+        <p>
+        <div class="footer">
+            <div style="padding-top: 0px;">
+                <p>Footer by: Aleksandar Matović 2019.</p>
+                <p>Contact information: <a href="mailto:aleksandarmatovic1@gmail.com">
+                        aleksandarmatovic1@gmail.com</a>.</p>
+        </div>
+        </p>
+         <!--ovde zavrsava footer-->
+         
+    </html>
