@@ -1,9 +1,13 @@
-var x=6;
-if (6/3); {
-    console.log (broj 6 je deljiv sa 3);
+var numberValue = 5;
+
+var x = 3;
+if (x % 3 == 0)
+{
+  console.log('Broj je deljiv sa 3');
 }
-else {
-    console.log ("broj 6 nije deljiv sa 3");
+else
+{
+  console.log('Broj nije deljiv sa 3');
 }
 
 // Drugi dan
